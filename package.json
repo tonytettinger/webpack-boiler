@@ -4,8 +4,9 @@
   "description": "Boiler plate with webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"  
+},
   "author": "",
   "license": "ISC",
   "repository": {
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/tonytettinger/webpack-boiler/issues"
   },
-  "homepage": "https://github.com/tonytettinger/webpack-boiler#readme"
+  "homepage": "https://github.com/tonytettinger/webpack-boiler#readme",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
